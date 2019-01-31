@@ -109,18 +109,8 @@ public class Sqs extends Collector {
 		attributeNames.add("NumberOfMessagesReceived");
 		attributeDescriptions.put("NumberOfMessagesReceived", "The number of messages recieved");
 		
-		attributeNames.add("NumberOfEmptyReceives");
-		attributeDescriptions.put("NumberOfEmptyReceives", "The number of empty recieves.");
-		
 		attributeNames.add("ApproximateAgeOfOldestMessage");
 		attributeDescriptions.put("ApproximateAgeOfOldestMessage", "The approximate age of the oldest message in the queue.");
-		
-		attributeNames.add("SentMessageSize");
-		attributeDescriptions.put("SentMessageSize", "The sent message size.");
-		
-		attributeNames.add("NumberOfMessagesDeleted");
-		attributeDescriptions.put("NumberOfMessagesDeleted", "The number of messages deleted.");
-		
 	}
 
 }
